@@ -28,3 +28,12 @@ li a {
 li a:hover {
     background-color: lightgrey;
 }
+body {
+    background-color: ivory;
+}
+#cente {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
