@@ -1,3 +1,3 @@
 function subpage1(){
-    window.href.location="subpage1";
+    window.location.href="subpage1";
 }
