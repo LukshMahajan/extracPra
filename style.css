@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;
 }
-ul {
+.navBar {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -13,19 +13,19 @@ ul {
     width: 100%;
 }
 
-li {
+.navLINK {
     float: left;
 }
 
 
-li a {
+.navLINK a {
     display: block;
     color: black;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
-li a:hover {
+.navLINK a:hover {
     background-color: lightgrey;
 }
 body {
