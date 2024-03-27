@@ -37,3 +37,26 @@ body {
     top: 50%;
     transform: translate(-50%, -50%);
 }
+.lis {
+    padding: 0;
+    margin: 50px 20px;
+    list-style: none;
+}
+.lis li {
+    margin: 5px;
+    display: inline-block;
+}
+.lis li a {
+    padding: 5px;
+    display: inline-block;
+    border: 1px solid #f2f2f2;
+}
+.lis li a img {
+    width: 125px;
+    height: 125px;
+    display: block;
+}
+.lis li a:hover img {
+    transform: scale(1.2);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
