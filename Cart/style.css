@@ -24,3 +24,15 @@ li a {
 li a:hover {
     background-color: lightgrey;
 }
+#cente {
+    position: absolute;
+    left: 50%;
+    top: 10%;
+    transform: translate(-50%, -50%);
+}
+body {
+    background-color: ivory;
+}
+h1 {
+    font-size: xx-large;
+}

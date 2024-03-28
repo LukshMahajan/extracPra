@@ -24,3 +24,6 @@ li a {
 li a:hover {
     background-color: lightgrey;
 }
+body {
+    background-color: ivory;
+}
