@@ -1,0 +1,43 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #FFFFF7;
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+
+li {
+    float: left;
+}
+
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: lightgrey;
+}
+.cent {
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+}
+h1 {
+    text-align:center;
+    font-family: "Bahnschrift",serif;
+}
+h4 {
+    text-align:center;
+    font-family: "Harlow Solid Italic",cursive;
+}
+body {
+    background-color: ivory;
+}
