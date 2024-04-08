@@ -26,5 +26,4 @@ function add(){
     let sand = {sand:"Matteo's Sandwich",sandType:sandType,cheeseType:cheeseType};
     arr.push(sand);
     localStorage.setItem("arrayMatteo", JSON.stringify(arr));
-    window.location.href="../Cart";
 }
