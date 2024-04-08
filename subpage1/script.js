@@ -1,5 +1,8 @@
 function add(){
-    let arr = [];
+    if (!localStorage.getItem("arrayMatteo")){
+        let arr = [];
+        localStorage.setItem("arrayMatteo", JSON.stringify(arr));
+    }
     let sandType = null;
     let cheeseType = null;
     if (document.getElementById("op1")){
@@ -24,7 +27,7 @@ function add(){
         cheeseType = "Monterey Cheddar";
     }
     let sand = {sand:"Matteo's Sandwich",sandType:sandType,cheeseType:cheeseType};
-    arr.push(sand);
-    localStorage.setItem("arrayMatteo", JSON.stringify(arr));
+    JSON.parse(localStorage.getItem("arrayMatteo")).push(sand);
+    localStorage.setItem("arrayMatteo", JSON.stringify(JSON.parse(localStorage.getItem("arrayMatteo"))));
     window.location.href="../Cart";
 }

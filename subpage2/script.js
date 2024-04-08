@@ -1,5 +1,7 @@
 function add(){
-    let arr = [];
+    if (localStorage.getItem("arrayMatteo")===null){
+        let arr = [];
+    }
     let sandType = null;
     let cheeseType = null;
     if (document.getElementById("op1")){
